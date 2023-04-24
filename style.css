@@ -80,6 +80,8 @@ header .fa-bars{
     min-height: 100vh;
     padding: 2rem 10rem;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     position: relative;
 }
 .home .video video{
@@ -119,11 +121,7 @@ header .fa-bars{
     font-size: 3rem;
     text-align: center;
 }
-.home .form-container{
-    padding: 1rem 0 1rem 2rem;
-    width: 100%;
-    margin-left: 2rem;
-}
+
 .home .form-container form span{
     color: #0098a1;
     display: block;
@@ -157,16 +155,20 @@ header .fa-bars{
     color: #0098a1;
     background: none;
 }
-.heading{
+.heading,
+.gallery-heading{
     font-size:4rem;
     text-align: center;
     background: #fff;
     color: #333;
     padding: 1rem;
-    padding-top:6rem;
+    padding-top:3rem;
     letter-spacing: .2rem;  
 }
-.heading span{
+.gallery-heading {
+    padding: 0 0 2rem 0;
+}
+.gallery-heading span,.heading span{
     color: #0098a1;
 }
 .feature{
@@ -505,7 +507,7 @@ header .fa-bars{
     color:  #0098a1;
 }
 /* media queries */
-@media (max-width:850px){
+@media (max-width:991px){
     html{
         font-size: 55%;
     }
@@ -577,11 +579,6 @@ header .fa-bars{
 }
 
 @media (max-width:768px){
-    .form-container form{
-        width: 60%;
-        margin: 0 auto;
-    } 
-    
     .home .form-container form input[type="submit"]{
         width: 100%;
     } 
@@ -625,7 +622,7 @@ header .fa-bars{
 }
 
 @media (max-width:500px){
-    .home .form-container{
+    .home .form-container form{
         width: 100%;
     }
     .contact-form-container{
