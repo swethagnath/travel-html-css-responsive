@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="./main.js"></script>
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="#">Travel</a>
+        <navbar class="navbar">
+            <ul>
+                <li><a data-scroll="home" class="active" href="#home">Home</a></li>
+                <li><a data-scroll="feature" href="#feature">Feature</a></li>
+                <li><a data-scroll="about" href="#about">About</a></li>
+                <li><a data-scroll="gallery" href="#gallery">Gallery</a></li>
+                <li><a data-scroll="review" href="#review">Review</a></li>
+                <li><a data-scroll="contact" href="#contact">Contact</a></li>
+            </ul>
+        </navbar>
+        <div class="fas fa-bars"></div>
+    </header>
+
+    <!-- header section starts-->
+    <section class="home" id="home">
+
+        <div class="video">
+            <video src="images/ocean.mp4" loop muted autoplay></video>
+        </div>
+
+        <div class="content">
+            <h1>Expolre New place, Adventure Awaits</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo sunt voluptate repellat quis sint
+                excepturi praesentium inventore dolore quaerat ipsam impedit voluptatibus nostrum, doloribus minus?
+                Reprehenderit nisi nesciunt rerum assumenda!</p>
+        </div>
+        <div class="form-container">
+            <form action="">
+                <h3>Search Your Destination</h3>
+                <span>Location</span>
+                <input type="text" placeholder="place You Want To Visit" />
+                <span>Guest Members</span>
+                <input type="text" placeholder="number of Peoples" />
+                <span>Arrival</span>
+                <input type="date" />
+                <span>Leaving</span>
+                <input type="date" />
+                <input type="submit" value="search">
+            </form>
+        </div>
+    </section>
+    <!-- feature section starts-->
+    <section class="feature" id="feature">
+        <h1 class="heading"><span>f</span>eatured <span>l</span>ocations</h1>
+        <div class="card-container">
+            <div class="card">
+                <span class="discount">-35%</span>
+                <img src="./images/featured-img-1.jpg" />
+                <div class="content">
+                    <h3 class="title">hawaii</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam animi consequuntur ea molestias
+                        illo. Porro error facilis obcaecati. Quisquam, placeat.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#"><button class="btn">check out!</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <span class="discount">-90%</span>
+                <img src="./images/featured-img-2.jpg" alt="">
+                <div class="content">
+                    <h3 class="title">egypt</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam animi consequuntur ea molestias
+                        illo. Porro error facilis obcaecati. Quisquam, placeat.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#"><button class="btn">check out!</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <span class="discount">-45%</span>
+                <img src="./images/featured-img-3.jpg" alt="">
+                <div class="content">
+                    <h3 class="title">india</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam animi consequuntur ea molestias
+                        illo. Porro error facilis obcaecati. Quisquam, placeat.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#"><button class="btn">check out!</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--feature section ends-->
+
+    <!-- about section starts-->
+    <section class="about" id="about">
+        <h1 class="heading"><span>a</span>bout <span>u</span>s</h1>
+        <div class="row">
+            <div class="image">
+                <img src="./images/about-img.png" alt="">
+            </div>
+            <div class="content">
+                <h3>why choose us</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit mollitia animi perspiciatis quaerat
+                    provident veritatis ipsum itaque explicabo sed, eveniet dolores, sunt praesentium eius eos! Atque
+                    numquam voluptatum fugiat deleniti?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, dolorem?</p>
+                <a href="#"><button class="btn btn1">read more</button></a>
+                <a href="#"><button class="btn">get started</button></a>
+            </div>
+        </div>
+    </section>
+    <!-- about section ends-->
+
+    <!-- gallery section starts-->
+    <section class="gallery" id="gallery">
+        <h1 class="heading"><span>g</span>allery</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/gallery-img-1.jpg" alt="">
+                <div class="icons">
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-share"></a>
+                    <a href="" class="fas fa-search"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/gallery-img-2.jpg" alt="">
+                <div class="icons">
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-share"></a>
+                    <a href="" class="fas fa-search"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/gallery-img-3.jpg" alt="">
+                <div class="icons">
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-share"></a>
+                    <a href="" class="fas fa-search"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/gallery-img-4.jpg" alt="">
+                <div class="icons">
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-share"></a>
+                    <a href="" class="fas fa-search"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/gallery-img-5.jpg" alt="">
+                <div class="icons">
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-share"></a>
+                    <a href="" class="fas fa-search"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/gallery-img-6.jpg" alt="">
+                <div class="icons">
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-share"></a>
+                    <a href="" class="fas fa-search"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallery section ends-->
+    <!-- review section starts-->
+    <section class="review" id="review">
+        <h1 class="heading"><span>r</span>eview</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="./images/img5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>someone's name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam aperiam aspernatur nisi ipsam
+                        debitis ut nam tenetur quisquam obcaecati? Vel exercitationem, nam nulla porro ratione
+                        voluptatibus delectus eius a ea?</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/img7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>someone's name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam aperiam aspernatur nisi ipsam
+                        debitis ut nam tenetur quisquam obcaecati? Vel exercitationem, nam nulla porro ratione
+                        voluptatibus delectus eius a ea?</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/img9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>someone's name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam aperiam aspernatur nisi ipsam
+                        debitis ut nam tenetur quisquam obcaecati? Vel exercitationem, nam nulla porro ratione
+                        voluptatibus delectus eius a ea?</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- review section ends-->
+
+    <!-- contact section starts-->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>c</span>ontact <span>u</span>s</h1>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15753.304745656518!2d76.44827843839157!3d9.215092603659883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b061e1e667501f3%3A0xf52b53e3892fde12!2sMuthukulam%2C%20Kerala!5e0!3m2!1sen!2sin!4v1682263613544!5m2!1sen!2sin"
+            width="100%" height="300" style="border:0;outline:none" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="row">
+            <div class="contact-info">
+                <div class="box">
+                    <h3>
+                        <i class="fas fa-home">address</i>
+                    </h3>
+                    <p>
+                        mumbai,<br>
+                        maharashtra,<br>
+                        400104.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <h3>
+                        <i class="fas fa-envolope">e-mail</i>
+                    </h3>
+                    <p>
+                        xyz@gmail.com
+                    </p>
+                </div>
+
+                <div class="box">
+                    <h3>
+                        <i class="fas fa-phone">phone</i>
+                        <p>+123 4567890</p>
+                    </h3>
+                    <p>
+                        xyz@gmail.com
+                    </p>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <form action="">
+                    <h3>get in touch</h3>
+                    <div class="inputBox">
+                        <input type="text" placeholder="full name">
+                        <input type="email" placeholder="email">
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" value="message">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- contact section ends-->
+
+    <!-- newsletter section starts-->
+    <section class="newsletter">
+        <h1>Sign up 25% Discount</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore debitis iste facere quas eveniet eligendi
+            incidunt. Enim, voluptatibus. Sapiente, magnam! Vitae a quae itaque sit? Itaque repudiandae officia iste
+            sint?</p>
+        <form>
+            <input type="email" placeholder="enter your email"><input type="submit" value="Sign Up" />
+        </form>
+    </section>
+    <!-- newsletter section ends -->
+    <!-- footer section starts-->
+    <section class="footer">
+        <h1 class="credit">created by <span>travel n tourism</span> | all rights reserved.</h1>
+        <div class="icons">
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-github"></a>
+        </div>
+    </section>
+    <!-- footer section ends-->
+</body>
